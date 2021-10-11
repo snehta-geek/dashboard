@@ -1,0 +1,105 @@
+.body{
+    font-family: "poppins";
+}
+.header{
+    height: 50px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-body{
+display: flex;
+}
+.sidebar{
+    width: 400px;
+    min-height: 100vh;
+    background-color: grey;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.input-container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    /* margin: auto; */
+    /* height: 100vh  */
+}
+.input-field{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.text{
+    height: 30px;
+    width: 50%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+label{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+}
+.image{
+    width: 50%;
+}
+input{
+    /* width: 30%; */
+    background-color: whitesmoke;
+    border: 1px solid antiquewhite;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    outline: unset;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.inputs-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.live-card{
+  margin-top: 90px;  
+  margin-bottom: 50px;
+}
+.colorpickers-container{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+   
+    padding: 10px;
+    border: 1px solid mediumvioletred;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+p{
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.secondary-color{
+    width: 600px;
+    margin: auto;
+    padding: 20px 0;
+}
+.primary-color{
+    width: 600px;
+    margin: auto;
+    padding: 20px 0;
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        display: flex;
+    flex-direction: column;
+    }
+    .input-container{
+width: unset !important;
+    }
+}
